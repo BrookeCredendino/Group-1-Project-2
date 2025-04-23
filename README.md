@@ -75,3 +75,90 @@ Pneumonia, Influenza, or COVID‑19 Deaths: Combined deaths from any of these th
 Questions:
 
 Q1: How did COVID-19 death rates vary across difference age groups within separate states?
+
+Analysis:
+Age Based Mortality Correlation Present
+Varies in steepness per state
+Strain on healthcare systems with high elderly population (eg. Florida and California)
+Middle age clicking point
+Majority of deaths are 50+
+Population Density Driven Mortality Discrepancies
+Higher State Population = Higher Mortality #s
+Lower State Population = Lower Mortality #s
+
+Importance:
+
+Vulnerability Patterns
+State Specific Issues
+Negligence
+Age Based Trends
+Elderly
+Working Class
+Population To COVID-19 Mortality Correlation
+High Pop. -> Higher Mortality
+Low Pop. -> Lower Mortality
+
+Local Resource Planning
+State-Level Policy
+Quarantining
+Vaccine Mandates
+Appropriate Hospital Equipment Allocation
+Ventilators
+Staffing 
+ICU Beds
+
+
+Future Forecasting
+Critical States
+Dedicated Support
+Structured Response
+Effective Mandates
+Critical Demographics
+Localized Healthcare
+Specified Guidelines
+
+
+
+Q2: Why did the male‑to‑female disparity in monthly COVID‑19 death counts for the 50–64 age group reach its peak earlier and at a higher magnitude in Southern states (e.g., Florida, Texas, Georgia) than in Pacific Coast states (e.g., California, Oregon, Washington) during various phases throughout 2020–2023?
+
+Analysis:
+Spikes of Gender Oriented Mortality Discrepancies
+3 Waves of Excess Male Deaths (Above Women Death Counts)
+Original Variant (Winter 2020-2021)
+Delta Variant (Summer 2021)
+Omicron and Other Onward Variants (Late 2022)
+Middle aged working class men the most impacted
+Adoption of vaccines dulled COVID-19 death disparities (Mid 2021)
+Pacific V.S Southern Spike Timing and Magnitude Differences
+Southern states spike first and with higher intensity
+Premature easing of southern state restrictions
+Slower southern state adoption of vaccines
+
+Importance:
+
+Underlying Factors
+Predisposed Demographics
+Working Class
+Middle Aged
+Socially active
+State Level Policy
+Delayed and Eased restrictions
+Vaccine hesitancy
+
+Optimize Care Outreach
+Vaccination Efforts
+Standardized
+Prompt
+Policy Guidance
+Social Distancing
+Quarantine Guidelines
+Mask mandates
+
+Future Prevention
+Data driven strategies
+Rapid and timed intervention
+Pre-Protection of “at-risk” demographics
+
+
+
+
