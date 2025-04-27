@@ -185,7 +185,13 @@ We chose this question primarily due to the fact that it would give us insigh as
 
 # Q2 Data Manipulation:
 
+<img width="944" alt="Screenshot 2025-04-27 at 2 35 22 PM" src="https://github.com/user-attachments/assets/b82c1483-ae8d-4c8f-a7f0-c0983a6fa476" />
 
+# Q2 Data Model:
+
+<img width="771" alt="Screenshot 2025-04-27 at 2 36 02 PM" src="https://github.com/user-attachments/assets/06fb38b1-cbf6-4228-950d-f23c4430af24" />
+
+<img width="772" alt="Screenshot 2025-04-27 at 2 36 08 PM" src="https://github.com/user-attachments/assets/dbcc94ee-40cc-4617-ae2a-e8c85f84217c" />
 
 # Q2 Analysis:
 1) Spikes of Gender Oriented Mortality Discrepancies
