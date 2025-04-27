@@ -99,13 +99,21 @@ Pneumonia, Influenza, or COVID‑19 Deaths: Combined deaths from any of these th
 
 # Q1 Analysis:
 1) Age Based Mortality Correlation Present
+   
 A) Varies in steepness per state
+
 B) Strain on healthcare systems with high elderly population (eg. Florida and California)
+
 C) Middle age clicking point
+
 D) Majority of deaths are 50+
+
 2) Population Density Driven Mortality Discrepancies
+   
 A) Higher State Population = Higher Mortality #s
+
 B) Lower State Population = Lower Mortality #s
+
 
 # Q1 Importance:
 
