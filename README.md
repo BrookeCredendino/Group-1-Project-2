@@ -106,6 +106,8 @@ N/A
 
 # Q1 Data Model:
 
+<img width="896" alt="Screenshot 2025-04-27 at 2 47 33 PM" src="https://github.com/user-attachments/assets/e5be3037-972b-4a00-bb4a-402275a0496d" />
+
 <img width="568" alt="Screenshot 2025-04-27 at 2 37 07 PM" src="https://github.com/user-attachments/assets/e0c05a11-8976-4d41-b779-26e4a3ba8161" />
 
 <img width="755" alt="Screenshot 2025-04-27 at 2 37 29 PM" src="https://github.com/user-attachments/assets/458391d4-ef68-48f9-89dd-8a5ff4791d83" />
