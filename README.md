@@ -283,7 +283,7 @@ https://github.com/BrookeCredendino/Group-1-Project-2/blob/main/COVID-19GenderDi
 
 # Sources:
 
-NIH.gov - https://pmc.ncbi.nlm.nih.gov/articles/PMC9698608/
+NIH.gov - https://pmc.ncbi.nlm.nih.gov/articles/PMC9698608/ 
 
 CDC.gov - https://covid.cdc.gov/covid-data-tracker/#variant-proportions
 
