@@ -52,6 +52,7 @@ By Year (annual totals) - Calendar year when Group = “By Year” or “By Mont
 By Month (monthly totals) -  Month number (1–12) when Group = “By Month”; NaN otherwise.
 
 
+
 B. Demographic & Geographic Fields
 
 State (String (Geographical Role: State/Province)): Jurisdiction where death occurred (50 states + DC, Puerto Rico, and “United States” for national totals).
@@ -73,6 +74,7 @@ Age Group (String): Predefined age bins, e.g.:
 “85+ years”
 
 “All Ages”
+
 
 
 C. Mortality Measures (all Number(whole))
