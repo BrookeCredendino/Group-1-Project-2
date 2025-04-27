@@ -14,8 +14,11 @@ COVID-19 Mortality By Age and Sex
 
 # Context & Motivation: 
 COVID‑19 has been one of the deadliest pandemics in modern history, disproportionately impacting different demographic group
-Scope & Granularity: Nationwide and state‑level counts, broken out by sex (“Male,” “Female,” “All Sexes”) and age groups (Under 1, 0–17, …, 85+)
-Analysis Objectives:
+
+# Scope & Granularity: 
+Nationwide and state‑level counts, broken out by sex (“Male,” “Female,” “All Sexes”) and age groups (Under 1, 0–17, …, 85+)
+
+# Analysis Objectives:
 Examine, identify, and understand demographic and state-wide patterns in COVID‑19 mortality
 
 # Why It Matters:
@@ -31,35 +34,17 @@ Last Updated: September 27, 2023 (the dataset is now static)
 # Data:
 A. Temporal & Aggregation Fields
 Data As Of (Date): Date the extract was published (e.g., “09/27/2023”).
-
-
 Start Date (Date): Beginning of the reporting window (e.g., “01/01/2020”).
-
-
 End Date (Date): End of the reporting window (e.g., “09/23/2023”).
-
-
 Group (String): Aggregation level—one of:
-
-
 By Total (cumulative over full period)
-
-
 By Year (annual totals) - Calendar year when Group = “By Year” or “By Month”; NaN otherwise.
-
-
 By Month (monthly totals) -  Month number (1–12) when Group = “By Month”; NaN otherwise.
 
 B. Demographic & Geographic Fields
 State (String (Geographical Role: State/Province)): Jurisdiction where death occurred (50 states + DC, Puerto Rico, and “United States” for national totals).
-
-
 Sex (String): “Male”, “Female”, or “All Sexes”.
-
-
 Age Group (String): Predefined age bins, e.g.:
-
-
 “Under 1 year”
 “0–17 years”
 “18–29 years”
@@ -70,24 +55,17 @@ Age Group (String): Predefined age bins, e.g.:
 
 C. Mortality Measures (all Number(whole))
 Each numeric column shows the provisional count of deaths for the specified category and grouping:
-
 COVID‑19 Deaths: Deaths with COVID‑19 as an underlying or contributing cause
-
 Total Deaths: All‑cause mortality
-
 Pneumonia Deaths: Deaths from pneumonia (excluding influenza and COVID‑19)
-
 Pneumonia and COVID‑19 Deaths: Deaths where both pneumonia and COVID‑19 were involved
-
 Influenza Deaths: Deaths from influenza
-
 Pneumonia, Influenza, or COVID‑19 Deaths: Combined deaths from any of these three causes
 
-Questions:
+# Questions:
+# Q1: How did COVID-19 death rates vary across difference age groups within separate states?
 
-Q1: How did COVID-19 death rates vary across difference age groups within separate states?
-
-Analysis:
+# Q1 Analysis:
 Age Based Mortality Correlation Present
 Varies in steepness per state
 Strain on healthcare systems with high elderly population (eg. Florida and California)
@@ -97,7 +75,7 @@ Population Density Driven Mortality Discrepancies
 Higher State Population = Higher Mortality #s
 Lower State Population = Lower Mortality #s
 
-Importance:
+# Q1 Importance:
 
 Vulnerability Patterns
 State Specific Issues
@@ -118,7 +96,6 @@ Ventilators
 Staffing 
 ICU Beds
 
-
 Future Forecasting
 Critical States
 Dedicated Support
@@ -130,9 +107,9 @@ Specified Guidelines
 
 
 
-Q2: Why did the male‑to‑female disparity in monthly COVID‑19 death counts for the 50–64 age group reach its peak earlier and at a higher magnitude in Southern states (e.g., Florida, Texas, Georgia) than in Pacific Coast states (e.g., California, Oregon, Washington) during various phases throughout 2020–2023?
+# Q2: Why did the male‑to‑female disparity in monthly COVID‑19 death counts for the 50–64 age group reach its peak earlier and at a higher magnitude in Southern states (e.g., Florida, Texas, Georgia) than in Pacific Coast states (e.g., California, Oregon, Washington) during various phases throughout 2020–2023?
 
-Analysis:
+# Q2 Analysis:
 Spikes of Gender Oriented Mortality Discrepancies
 3 Waves of Excess Male Deaths (Above Women Death Counts)
 Original Variant (Winter 2020-2021)
@@ -146,7 +123,7 @@ Premature easing of southern state restrictions
 Slower southern state adoption of vaccines
 
 
-Importance:
+# Q2 Importance:
 
 Underlying Factors
 Predisposed Demographics
