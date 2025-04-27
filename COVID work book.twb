@@ -1,0 +1,1017 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20251.25.0313.2002                               -->
+<workbook original-version='18.1' source-build='2025.1.0 (20251.25.0313.2002)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Provisional_COVID-19_Deaths_by_Sex_and_Age' inline='true' name='federated.0qbuyji0ilkfwv15ofpyl1ww8k0p' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Provisional_COVID-19_Deaths_by_Sex_and_Age' name='textscan.05o93ip1mw70cu1f2v4lo13r95l3'>
+            <connection class='textscan' directory='C:/Users/2020k/Downloads' filename='Provisional_COVID-19_Deaths_by_Sex_and_Age.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.05o93ip1mw70cu1f2v4lo13r95l3' name='Provisional_COVID-19_Deaths_by_Sex_and_Age.csv' table='[Provisional_COVID-19_Deaths_by_Sex_and_Age#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='date' name='Data As Of' ordinal='0' />
+            <column datatype='date' name='Start Date' ordinal='1' />
+            <column datatype='date' name='End Date' ordinal='2' />
+            <column datatype='string' name='Group' ordinal='3' />
+            <column datatype='string' name='Year' ordinal='4' />
+            <column datatype='string' name='Month' ordinal='5' />
+            <column datatype='string' name='State' ordinal='6' />
+            <column datatype='string' name='Sex' ordinal='7' />
+            <column datatype='string' name='Age Group' ordinal='8' />
+            <column datatype='integer' name='COVID-19 Deaths' ordinal='9' />
+            <column datatype='integer' name='Total Deaths' ordinal='10' />
+            <column datatype='integer' name='Pneumonia Deaths' ordinal='11' />
+            <column datatype='integer' name='Pneumonia and COVID-19 Deaths' ordinal='12' />
+            <column datatype='integer' name='Influenza Deaths' ordinal='13' />
+            <column datatype='integer' name='Pneumonia, Influenza, or COVID-19 Deaths' ordinal='14' />
+            <column datatype='string' name='Footnote' ordinal='15' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Provisional_COVID-19_Deaths_by_Sex_and_Age.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Data As Of</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[Data As Of]</local-name>
+            <parent-name>[Provisional_COVID-19_Deaths_by_Sex_and_Age.csv]</parent-name>
+            <remote-alias>Data As Of</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Provisional_COVID-19_Deaths_by_Sex_and_Age.csv_EDD4688D2ED54E88A100060D2F2C7F79]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Start Date</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[Start Date]</local-name>
+            <parent-name>[Provisional_COVID-19_Deaths_by_Sex_and_Age.csv]</parent-name>
+            <remote-alias>Start Date</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Provisional_COVID-19_Deaths_by_Sex_and_Age.csv_EDD4688D2ED54E88A100060D2F2C7F79]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>End Date</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[End Date]</local-name>
+            <parent-name>[Provisional_COVID-19_Deaths_by_Sex_and_Age.csv]</parent-name>
+            <remote-alias>End Date</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Provisional_COVID-19_Deaths_by_Sex_and_Age.csv_EDD4688D2ED54E88A100060D2F2C7F79]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Group</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Group]</local-name>
+            <parent-name>[Provisional_COVID-19_Deaths_by_Sex_and_Age.csv]</parent-name>
+            <remote-alias>Group</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Provisional_COVID-19_Deaths_by_Sex_and_Age.csv_EDD4688D2ED54E88A100060D2F2C7F79]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Year]</local-name>
+            <parent-name>[Provisional_COVID-19_Deaths_by_Sex_and_Age.csv]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Provisional_COVID-19_Deaths_by_Sex_and_Age.csv_EDD4688D2ED54E88A100060D2F2C7F79]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Month</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Month]</local-name>
+            <parent-name>[Provisional_COVID-19_Deaths_by_Sex_and_Age.csv]</parent-name>
+            <remote-alias>Month</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Provisional_COVID-19_Deaths_by_Sex_and_Age.csv_EDD4688D2ED54E88A100060D2F2C7F79]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>State</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[State]</local-name>
+            <parent-name>[Provisional_COVID-19_Deaths_by_Sex_and_Age.csv]</parent-name>
+            <remote-alias>State</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Provisional_COVID-19_Deaths_by_Sex_and_Age.csv_EDD4688D2ED54E88A100060D2F2C7F79]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sex</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Sex]</local-name>
+            <parent-name>[Provisional_COVID-19_Deaths_by_Sex_and_Age.csv]</parent-name>
+            <remote-alias>Sex</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Provisional_COVID-19_Deaths_by_Sex_and_Age.csv_EDD4688D2ED54E88A100060D2F2C7F79]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Age Group</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Age Group]</local-name>
+            <parent-name>[Provisional_COVID-19_Deaths_by_Sex_and_Age.csv]</parent-name>
+            <remote-alias>Age Group</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Provisional_COVID-19_Deaths_by_Sex_and_Age.csv_EDD4688D2ED54E88A100060D2F2C7F79]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>COVID-19 Deaths</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[COVID-19 Deaths]</local-name>
+            <parent-name>[Provisional_COVID-19_Deaths_by_Sex_and_Age.csv]</parent-name>
+            <remote-alias>COVID-19 Deaths</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Provisional_COVID-19_Deaths_by_Sex_and_Age.csv_EDD4688D2ED54E88A100060D2F2C7F79]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Deaths</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total Deaths]</local-name>
+            <parent-name>[Provisional_COVID-19_Deaths_by_Sex_and_Age.csv]</parent-name>
+            <remote-alias>Total Deaths</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Provisional_COVID-19_Deaths_by_Sex_and_Age.csv_EDD4688D2ED54E88A100060D2F2C7F79]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pneumonia Deaths</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Pneumonia Deaths]</local-name>
+            <parent-name>[Provisional_COVID-19_Deaths_by_Sex_and_Age.csv]</parent-name>
+            <remote-alias>Pneumonia Deaths</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Provisional_COVID-19_Deaths_by_Sex_and_Age.csv_EDD4688D2ED54E88A100060D2F2C7F79]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pneumonia and COVID-19 Deaths</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Pneumonia and COVID-19 Deaths]</local-name>
+            <parent-name>[Provisional_COVID-19_Deaths_by_Sex_and_Age.csv]</parent-name>
+            <remote-alias>Pneumonia and COVID-19 Deaths</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Provisional_COVID-19_Deaths_by_Sex_and_Age.csv_EDD4688D2ED54E88A100060D2F2C7F79]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Influenza Deaths</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Influenza Deaths]</local-name>
+            <parent-name>[Provisional_COVID-19_Deaths_by_Sex_and_Age.csv]</parent-name>
+            <remote-alias>Influenza Deaths</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Provisional_COVID-19_Deaths_by_Sex_and_Age.csv_EDD4688D2ED54E88A100060D2F2C7F79]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pneumonia, Influenza, or COVID-19 Deaths</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Pneumonia, Influenza, or COVID-19 Deaths]</local-name>
+            <parent-name>[Provisional_COVID-19_Deaths_by_Sex_and_Age.csv]</parent-name>
+            <remote-alias>Pneumonia, Influenza, or COVID-19 Deaths</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Provisional_COVID-19_Deaths_by_Sex_and_Age.csv_EDD4688D2ED54E88A100060D2F2C7F79]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Footnote</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Footnote]</local-name>
+            <parent-name>[Provisional_COVID-19_Deaths_by_Sex_and_Age.csv]</parent-name>
+            <remote-alias>Footnote</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Provisional_COVID-19_Deaths_by_Sex_and_Age.csv_EDD4688D2ED54E88A100060D2F2C7F79]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[Age Group]' role='dimension' type='nominal' />
+      <column datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column caption='Provisional_COVID-19_Deaths_by_Sex_and_Age.csv' datatype='table' name='[__tableau_internal_object_id__].[Provisional_COVID-19_Deaths_by_Sex_and_Age.csv_EDD4688D2ED54E88A100060D2F2C7F79]' role='measure' type='quantitative' />
+      <column-instance column='[Age Group]' derivation='None' name='[none:Age Group:nk]' pivot='key' type='nominal' />
+      <column-instance column='[State]' derivation='None' name='[none:State:nk]' pivot='key' type='nominal' />
+      <group hidden='true' name='[Exclusions (Age Group,State)]' name-style='unqualified' user:auto-column='exclude'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[none:Age Group:nk]' />
+          <groupfilter function='level-members' level='[none:State:nk]' />
+        </groupfilter>
+      </group>
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/2020k/AppData/Local/Temp/TableauTemp/#TableauTemp_0r650uk03mstwz1fixwbv1n9jg2q.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='04/21/2025 06:51:30 PM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Data As Of</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[Data As Of]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Data As Of</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Provisional_COVID-19_Deaths_by_Sex_and_Age.csv</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Provisional_COVID-19_Deaths_by_Sex_and_Age.csv_EDD4688D2ED54E88A100060D2F2C7F79]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Start Date</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[Start Date]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Start Date</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Provisional_COVID-19_Deaths_by_Sex_and_Age.csv</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>45</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Provisional_COVID-19_Deaths_by_Sex_and_Age.csv_EDD4688D2ED54E88A100060D2F2C7F79]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>End Date</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[End Date]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>End Date</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Provisional_COVID-19_Deaths_by_Sex_and_Age.csv</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>45</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Provisional_COVID-19_Deaths_by_Sex_and_Age.csv_EDD4688D2ED54E88A100060D2F2C7F79]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Group</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Group]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Group</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Provisional_COVID-19_Deaths_by_Sex_and_Age.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[Provisional_COVID-19_Deaths_by_Sex_and_Age.csv_EDD4688D2ED54E88A100060D2F2C7F79]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Year</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Year]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Year</remote-alias>
+              <ordinal>4</ordinal>
+              <family>Provisional_COVID-19_Deaths_by_Sex_and_Age.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[Provisional_COVID-19_Deaths_by_Sex_and_Age.csv_EDD4688D2ED54E88A100060D2F2C7F79]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Month</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Month]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Month</remote-alias>
+              <ordinal>5</ordinal>
+              <family>Provisional_COVID-19_Deaths_by_Sex_and_Age.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>13</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[Provisional_COVID-19_Deaths_by_Sex_and_Age.csv_EDD4688D2ED54E88A100060D2F2C7F79]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>State</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[State]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>State</remote-alias>
+              <ordinal>6</ordinal>
+              <family>Provisional_COVID-19_Deaths_by_Sex_and_Age.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>54</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[Provisional_COVID-19_Deaths_by_Sex_and_Age.csv_EDD4688D2ED54E88A100060D2F2C7F79]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Sex</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Sex]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Sex</remote-alias>
+              <ordinal>7</ordinal>
+              <family>Provisional_COVID-19_Deaths_by_Sex_and_Age.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[Provisional_COVID-19_Deaths_by_Sex_and_Age.csv_EDD4688D2ED54E88A100060D2F2C7F79]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Age Group</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Age Group]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Age Group</remote-alias>
+              <ordinal>8</ordinal>
+              <family>Provisional_COVID-19_Deaths_by_Sex_and_Age.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>17</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[Provisional_COVID-19_Deaths_by_Sex_and_Age.csv_EDD4688D2ED54E88A100060D2F2C7F79]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>COVID-19 Deaths</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[COVID-19 Deaths]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>COVID-19 Deaths</remote-alias>
+              <ordinal>9</ordinal>
+              <family>Provisional_COVID-19_Deaths_by_Sex_and_Age.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2108</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Provisional_COVID-19_Deaths_by_Sex_and_Age.csv_EDD4688D2ED54E88A100060D2F2C7F79]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Total Deaths</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Total Deaths]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Total Deaths</remote-alias>
+              <ordinal>10</ordinal>
+              <family>Provisional_COVID-19_Deaths_by_Sex_and_Age.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5651</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Provisional_COVID-19_Deaths_by_Sex_and_Age.csv_EDD4688D2ED54E88A100060D2F2C7F79]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Pneumonia Deaths</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Pneumonia Deaths]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Pneumonia Deaths</remote-alias>
+              <ordinal>11</ordinal>
+              <family>Provisional_COVID-19_Deaths_by_Sex_and_Age.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1929</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Provisional_COVID-19_Deaths_by_Sex_and_Age.csv_EDD4688D2ED54E88A100060D2F2C7F79]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Pneumonia and COVID-19 Deaths</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Pneumonia and COVID-19 Deaths]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Pneumonia and COVID-19 Deaths</remote-alias>
+              <ordinal>12</ordinal>
+              <family>Provisional_COVID-19_Deaths_by_Sex_and_Age.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1579</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Provisional_COVID-19_Deaths_by_Sex_and_Age.csv_EDD4688D2ED54E88A100060D2F2C7F79]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Influenza Deaths</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Influenza Deaths]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Influenza Deaths</remote-alias>
+              <ordinal>13</ordinal>
+              <family>Provisional_COVID-19_Deaths_by_Sex_and_Age.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>666</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Provisional_COVID-19_Deaths_by_Sex_and_Age.csv_EDD4688D2ED54E88A100060D2F2C7F79]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Pneumonia, Influenza, or COVID-19 Deaths</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Pneumonia, Influenza, or COVID-19 Deaths]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Pneumonia, Influenza, or COVID-19 Deaths</remote-alias>
+              <ordinal>14</ordinal>
+              <family>Provisional_COVID-19_Deaths_by_Sex_and_Age.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2027</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Provisional_COVID-19_Deaths_by_Sex_and_Age.csv_EDD4688D2ED54E88A100060D2F2C7F79]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Footnote</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Footnote]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Footnote</remote-alias>
+              <ordinal>15</ordinal>
+              <family>Provisional_COVID-19_Deaths_by_Sex_and_Age.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[Provisional_COVID-19_Deaths_by_Sex_and_Age.csv_EDD4688D2ED54E88A100060D2F2C7F79]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-aliased-fields='true' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Age Group:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;40-49 years&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;0-17 years&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;18-29 years&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;65-74 years&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;45-54 years&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;25-34 years&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;1-4 years&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Under 1 year&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;30-39 years&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;75-84 years&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;85 years and over&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;50-64 years&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;35-44 years&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;5-14 years&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;All Ages&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;55-64 years&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;15-24 years&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='Provisional_COVID-19_Deaths_by_Sex_and_Age.csv' id='Provisional_COVID-19_Deaths_by_Sex_and_Age.csv_EDD4688D2ED54E88A100060D2F2C7F79'>
+            <properties context=''>
+              <relation connection='textscan.05o93ip1mw70cu1f2v4lo13r95l3' name='Provisional_COVID-19_Deaths_by_Sex_and_Age.csv' table='[Provisional_COVID-19_Deaths_by_Sex_and_Age#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='date' name='Data As Of' ordinal='0' />
+                  <column datatype='date' name='Start Date' ordinal='1' />
+                  <column datatype='date' name='End Date' ordinal='2' />
+                  <column datatype='string' name='Group' ordinal='3' />
+                  <column datatype='string' name='Year' ordinal='4' />
+                  <column datatype='string' name='Month' ordinal='5' />
+                  <column datatype='string' name='State' ordinal='6' />
+                  <column datatype='string' name='Sex' ordinal='7' />
+                  <column datatype='string' name='Age Group' ordinal='8' />
+                  <column datatype='integer' name='COVID-19 Deaths' ordinal='9' />
+                  <column datatype='integer' name='Total Deaths' ordinal='10' />
+                  <column datatype='integer' name='Pneumonia Deaths' ordinal='11' />
+                  <column datatype='integer' name='Pneumonia and COVID-19 Deaths' ordinal='12' />
+                  <column datatype='integer' name='Influenza Deaths' ordinal='13' />
+                  <column datatype='integer' name='Pneumonia, Influenza, or COVID-19 Deaths' ordinal='14' />
+                  <column datatype='string' name='Footnote' ordinal='15' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Provisional_COVID-19_Deaths_by_Sex_and_Age' name='federated.0qbuyji0ilkfwv15ofpyl1ww8k0p' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0qbuyji0ilkfwv15ofpyl1ww8k0p'>
+            <column datatype='string' name='[Age Group]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[COVID-19 Deaths]' role='measure' type='quantitative' />
+            <column datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column-instance column='[Age Group]' derivation='None' name='[none:Age Group:nk]' pivot='key' type='nominal' />
+            <column-instance column='[State]' derivation='None' name='[none:State:nk]' pivot='key' type='nominal' />
+            <column-instance column='[COVID-19 Deaths]' derivation='Sum' name='[sum:COVID-19 Deaths:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0qbuyji0ilkfwv15ofpyl1ww8k0p].[Exclusions (Age Group,State)]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='crossjoin'>
+                <groupfilter function='level-members' level='[none:Age Group:nk]' />
+                <groupfilter function='level-members' level='[none:State:nk]' />
+              </groupfilter>
+              <groupfilter function='reorder-dimensionality'>
+                <groupfilter function='crossjoin'>
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;United States&quot;' />
+                  <groupfilter function='union'>
+                    <groupfilter function='member' level='[none:Age Group:nk]' member='&quot;0-17 years&quot;' />
+                    <groupfilter function='member' level='[none:Age Group:nk]' member='&quot;1-4 years&quot;' />
+                    <groupfilter function='member' level='[none:Age Group:nk]' member='&quot;15-24 years&quot;' />
+                    <groupfilter function='member' level='[none:Age Group:nk]' member='&quot;18-29 years&quot;' />
+                    <groupfilter function='member' level='[none:Age Group:nk]' member='&quot;25-34 years&quot;' />
+                    <groupfilter function='member' level='[none:Age Group:nk]' member='&quot;30-39 years&quot;' />
+                    <groupfilter function='member' level='[none:Age Group:nk]' member='&quot;35-44 years&quot;' />
+                    <groupfilter function='member' level='[none:Age Group:nk]' member='&quot;40-49 years&quot;' />
+                    <groupfilter function='member' level='[none:Age Group:nk]' member='&quot;45-54 years&quot;' />
+                    <groupfilter function='member' level='[none:Age Group:nk]' member='&quot;5-14 years&quot;' />
+                    <groupfilter function='member' level='[none:Age Group:nk]' member='&quot;50-64 years&quot;' />
+                    <groupfilter function='member' level='[none:Age Group:nk]' member='&quot;55-64 years&quot;' />
+                    <groupfilter function='member' level='[none:Age Group:nk]' member='&quot;65-74 years&quot;' />
+                    <groupfilter function='member' level='[none:Age Group:nk]' member='&quot;75-84 years&quot;' />
+                    <groupfilter function='member' level='[none:Age Group:nk]' member='&quot;85 years and over&quot;' />
+                  </groupfilter>
+                </groupfilter>
+                <order>
+                  <hierarchy name='[none:Age Group:nk]' />
+                  <hierarchy name='[none:State:nk]' />
+                </order>
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0qbuyji0ilkfwv15ofpyl1ww8k0p].[none:Age Group:nk]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Age Group:nk]' />
+              <groupfilter function='union'>
+                <groupfilter function='member' level='[none:Age Group:nk]' member='&quot;All Ages&quot;' />
+                <groupfilter function='member' level='[none:Age Group:nk]' member='&quot;Under 1 year&quot;' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0qbuyji0ilkfwv15ofpyl1ww8k0p].[none:Age Group:nk]</column>
+            <column>[federated.0qbuyji0ilkfwv15ofpyl1ww8k0p].[Exclusions (Age Group,State)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='color' value='#000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0qbuyji0ilkfwv15ofpyl1ww8k0p].[none:Age Group:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0qbuyji0ilkfwv15ofpyl1ww8k0p].[sum:COVID-19 Deaths:qk]</rows>
+        <cols>[federated.0qbuyji0ilkfwv15ofpyl1ww8k0p].[none:State:nk]</cols>
+      </table>
+      <simple-id uuid='{DCB18F09-6880-4160-AA88-9A0942FB1578}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.5' source-height='44'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0qbuyji0ilkfwv15ofpyl1ww8k0p].[none:Age Group:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0qbuyji0ilkfwv15ofpyl1ww8k0p].[none:Age Group:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{43E2FFC4-9452-42F9-87F3-15AA21CC6C80}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
