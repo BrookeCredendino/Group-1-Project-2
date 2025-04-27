@@ -1,23 +1,34 @@
-# Group-1-Project-2
+# Group 1 MIST 4610 Group Project 2
+# Team Name:
+21479 Group 1
 
-COVID-19 Deaths By Sex and Age
+# Team Members: 
+1) Brett Bailey [@brettbailey04](https://github.com/brettbailey04)
+2) Brooke Credendino [@BrookeCredendino](https://github.com/BrookeCredendino)
+3) Mohammed Omar [@momo103103](https://github.com/momo103103)
+4) Evan Langley [@elangley424](https://github.com/elangley424)
+5) Soham Gupta [@GHSohamGupta](https://github.com/GHSohamGupta)
 
-Group 1: Brett, Brooke, Evan, Mohammed, Soham
+# Topic: 
+COVID-19 Mortality By Age and Sex
 
-Context & Motivation: COVID‑19 has been one of the deadliest pandemics in modern history, disproportionately impacting different demographic group
+# Context & Motivation: 
+COVID‑19 has been one of the deadliest pandemics in modern history, disproportionately impacting different demographic group
 Scope & Granularity: Nationwide and state‑level counts, broken out by sex (“Male,” “Female,” “All Sexes”) and age groups (Under 1, 0–17, …, 85+)
 Analysis Objectives:
 Examine, identify, and understand demographic and state-wide patterns in COVID‑19 mortality
-Why It Matters:
+
+# Why It Matters:
 Informs targeted public‑health interventions and resource allocation
 Highlights equity gaps and helps tailor future pandemic responses
 
+# Source:
 Publisher: Centers for Disease Control and Prevention (CDC) 
 Maintainer: National Center for Health Statistics (NCHS)
 URL Access:  https://data.cdc.gov/NCHS/Provisional-COVID-19-Deaths-by-Sex-and-Age/9bhg-hcku
 Last Updated: September 27, 2023 (the dataset is now static)
 
-Data:
+# Data:
 A. Temporal & Aggregation Fields
 Data As Of (Date): Date the extract was published (e.g., “09/27/2023”).
 
