@@ -97,6 +97,11 @@ Pneumonia, Influenza, or COVID‑19 Deaths: Combined deaths from any of these th
 # Questions:
 # Q1: How did COVID-19 death rates vary across difference age groups within separate states?
 
+# Q1 Choice: 
+
+# Q1 Data Manipulation
+N/A
+
 # Q1 Analysis:
 1) Age Based Mortality Correlation Present
    
@@ -173,6 +178,14 @@ B) Specified Guidelines
 
 
 # Q2: Why did the male‑to‑female disparity in monthly COVID‑19 death counts for the 50–64 age group reach its peak earlier and at a higher magnitude in Southern states (e.g., Florida, Texas, Georgia) than in Pacific Coast states (e.g., California, Oregon, Washington) during various phases throughout 2020–2023?
+
+# Q2 Choice: 
+
+We chose this question primarily due to the fact that it would give us insigh as to why the 50-64 year age group was the clicking point in mortality. Most deaths were found in this group and we wanted to look deeper into what factors played into it. We already came into the question knowing that this was a immune succetible group and that it was still considered part of the working class. We chose the Southern and Coastal states as they were two distinct groups in terms of political ideology and overall response to the pandemic. We believed that by asking this question and utilizing the data we could confirm our prior insights and build upon what really citnributed to the accelerated mortality especially among men during various stages of the pandemic.
+
+# Q2 Data Manipulation:
+
+
 
 # Q2 Analysis:
 1) Spikes of Gender Oriented Mortality Discrepancies
