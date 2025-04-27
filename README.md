@@ -99,6 +99,8 @@ Pneumonia, Influenza, or COVID‑19 Deaths: Combined deaths from any of these th
 
 # Q1 Choice: 
 
+We chose this question as a sort of a baseline to further our understanding of what trends really existed between mortality and demographics such as age and gender. This baseline served to identify basic causal relationships between existing statisitics in the various states across the nation and develop a better fundametal understanding of the situation that presented itself during COVID-19 for us to build onto for our following question which would highlight a more analytical and deeper understanding of the discrepencies brought about in terms of mortality during the pandemic.
+
 # Q1 Data Manipulation
 N/A
 
