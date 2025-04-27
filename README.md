@@ -35,7 +35,7 @@ URL Access:  https://data.cdc.gov/NCHS/Provisional-COVID-19-Deaths-by-Sex-and-Ag
 Last Updated: September 27, 2023 (the dataset is now static)
 
 # Data:
-A. Temporal & Aggregation Fields
+A. Temporal & Aggregation Fields: 
 
 Data As Of (Date): Date the extract was published (e.g., “09/27/2023”).
 
@@ -53,7 +53,7 @@ By Month (monthly totals) -  Month number (1–12) when Group = “By Month”; 
 
 
 
-B. Demographic & Geographic Fields
+B. Demographic & Geographic Fields: 
 
 State (String (Geographical Role: State/Province)): Jurisdiction where death occurred (50 states + DC, Puerto Rico, and “United States” for national totals).
 
@@ -77,7 +77,7 @@ Age Group (String): Predefined age bins, e.g.:
 
 
 
-C. Mortality Measures (all Number(whole))
+C. Mortality Measures (all Number(whole)): 
 
 Each numeric column shows the provisional count of deaths for the specified category and grouping:
 
