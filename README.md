@@ -98,44 +98,44 @@ Pneumonia, Influenza, or COVID‑19 Deaths: Combined deaths from any of these th
 # Q1: How did COVID-19 death rates vary across difference age groups within separate states?
 
 # Q1 Analysis:
-Age Based Mortality Correlation Present
-Varies in steepness per state
-Strain on healthcare systems with high elderly population (eg. Florida and California)
-Middle age clicking point
-Majority of deaths are 50+
-Population Density Driven Mortality Discrepancies
-Higher State Population = Higher Mortality #s
-Lower State Population = Lower Mortality #s
+1) Age Based Mortality Correlation Present
+2) Varies in steepness per state
+3) Strain on healthcare systems with high elderly population (eg. Florida and California)
+4) Middle age clicking point
+5) Majority of deaths are 50+
+6) Population Density Driven Mortality Discrepancies
+7) Higher State Population = Higher Mortality #s
+8) Lower State Population = Lower Mortality #s
 
 # Q1 Importance:
 
-Vulnerability Patterns
-State Specific Issues
-Negligence
-Age Based Trends
-Elderly
-Working Class
-Population To COVID-19 Mortality Correlation
-High Pop. -> Higher Mortality
-Low Pop. -> Lower Mortality
+1.1) Vulnerability Patterns
+A) State Specific Issues
+B) Negligence
+1.2) Age Based Trends
+A) Elderly
+B) Working Class
+1.3) Population To COVID-19 Mortality Correlation
+A) High Pop. -> Higher Mortality
+B) Low Pop. -> Lower Mortality
 
-Local Resource Planning
-State-Level Policy
-Quarantining
-Vaccine Mandates
-Appropriate Hospital Equipment Allocation
-Ventilators
-Staffing 
-ICU Beds
+2.1) Local Resource Planning
+A) State-Level Policy
+B) Quarantining
+C) Vaccine Mandates
+2.2) Appropriate Hospital Equipment Allocation
+A) Ventilators
+B) Staffing 
+C) ICU Beds
 
-Future Forecasting
-Critical States
-Dedicated Support
-Structured Response
-Effective Mandates
-Critical Demographics
-Localized Healthcare
-Specified Guidelines
+3.1) Future Forecasting
+A) Critical States
+B) Dedicated Support
+C) Structured Response
+D) Effective Mandates
+3.2) Critical Demographics
+A) Localized Healthcare
+B) Specified Guidelines
 
 
 
