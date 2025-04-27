@@ -1,6 +1,6 @@
 # Group 1 MIST 4610 Group Project 2
 # Team Name:
-21479 Group 1
+21479 Group 1 
 
 # Team Members: 
 1) Brett Bailey [@brettbailey04](https://github.com/brettbailey04)
