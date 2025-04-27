@@ -110,32 +110,57 @@ Pneumonia, Influenza, or COVID‑19 Deaths: Combined deaths from any of these th
 # Q1 Importance:
 
 1.1) Vulnerability Patterns
+
 A) State Specific Issues
+
 B) Negligence
+
 1.2) Age Based Trends
+
 A) Elderly
+
 B) Working Class
+
 1.3) Population To COVID-19 Mortality Correlation
+
 A) High Pop. -> Higher Mortality
+
 B) Low Pop. -> Lower Mortality
 
+
 2.1) Local Resource Planning
+
 A) State-Level Policy
+
 B) Quarantining
+
 C) Vaccine Mandates
+
 2.2) Appropriate Hospital Equipment Allocation
+
 A) Ventilators
+
 B) Staffing 
+
 C) ICU Beds
 
+
 3.1) Future Forecasting
+
 A) Critical States
+
 B) Dedicated Support
+
 C) Structured Response
+
 D) Effective Mandates
+
 3.2) Critical Demographics
+
 A) Localized Healthcare
+
 B) Specified Guidelines
+
 
 
 
