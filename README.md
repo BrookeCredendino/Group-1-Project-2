@@ -99,13 +99,13 @@ Pneumonia, Influenza, or COVID‑19 Deaths: Combined deaths from any of these th
 
 # Q1 Analysis:
 1) Age Based Mortality Correlation Present
-2) Varies in steepness per state
-3) Strain on healthcare systems with high elderly population (eg. Florida and California)
-4) Middle age clicking point
-5) Majority of deaths are 50+
-6) Population Density Driven Mortality Discrepancies
-7) Higher State Population = Higher Mortality #s
-8) Lower State Population = Lower Mortality #s
+A) Varies in steepness per state
+B) Strain on healthcare systems with high elderly population (eg. Florida and California)
+C) Middle age clicking point
+D) Majority of deaths are 50+
+2) Population Density Driven Mortality Discrepancies
+A) Higher State Population = Higher Mortality #s
+B) Lower State Population = Lower Mortality #s
 
 # Q1 Importance:
 
@@ -167,43 +167,73 @@ B) Specified Guidelines
 # Q2: Why did the male‑to‑female disparity in monthly COVID‑19 death counts for the 50–64 age group reach its peak earlier and at a higher magnitude in Southern states (e.g., Florida, Texas, Georgia) than in Pacific Coast states (e.g., California, Oregon, Washington) during various phases throughout 2020–2023?
 
 # Q2 Analysis:
-Spikes of Gender Oriented Mortality Discrepancies
-3 Waves of Excess Male Deaths (Above Women Death Counts)
-Original Variant (Winter 2020-2021)
-Delta Variant (Summer 2021)
-Omicron and Other Onward Variants (Late 2022)
-Middle aged working class men the most impacted
-Adoption of vaccines dulled COVID-19 death disparities (Mid 2021)
-Pacific V.S Southern Spike Timing and Magnitude Differences
-Southern states spike first and with higher intensity
-Premature easing of southern state restrictions
-Slower southern state adoption of vaccines
+1) Spikes of Gender Oriented Mortality Discrepancies
+
+A) 3 Waves of Excess Male Deaths (Above Women Death Counts)
+
+B) Original Variant (Winter 2020-2021)
+
+C) Delta Variant (Summer 2021)
+
+D) Omicron and Other Onward Variants (Late 2022)
+
+E) Middle aged working class men the most impacted
+
+F) Adoption of vaccines dulled COVID-19 death disparities (Mid 2021)
+
+2) Pacific V.S Southern Spike Timing and Magnitude Differences
+
+A) Southern states spike first and with higher intensity
+
+B) Premature easing of southern state restrictions
+
+C) Slower southern state adoption of vaccines
+
 
 
 # Q2 Importance:
 
-Underlying Factors
-Predisposed Demographics
-Working Class
-Middle Aged
-Socially active
-State Level Policy
-Delayed and Eased restrictions
-Vaccine hesitancy
+1.1) Underlying Factors
 
-Optimize Care Outreach
-Vaccination Efforts
-Standardized
-Prompt
-Policy Guidance
-Social Distancing
-Quarantine Guidelines
-Mask mandates
+A) Predisposed Demographics
 
-Future Prevention
-Data driven strategies
-Rapid and timed intervention
-Pre-Protection of “at-risk” demographics
+B) Working Class
+
+C) Middle Aged
+
+D) Socially active
+
+1.2) State Level Policy
+
+A) Delayed and Eased restrictions
+
+B) Vaccine hesitancy
+
+
+2.1) Optimize Care Outreach
+
+A) Vaccination Efforts
+
+B) Standardized
+
+C) Prompt
+
+2.2) Policy Guidance
+
+A) Social Distancing
+
+B) Quarantine Guidelines
+
+C) Mask mandates
+
+
+3.1) Future Prevention
+
+A) Data driven strategies
+
+B) Rapid and timed intervention
+
+C) Pre-Protection of “at-risk” demographics
 
 
 
