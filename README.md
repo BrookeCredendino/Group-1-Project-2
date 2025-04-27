@@ -27,8 +27,11 @@ Highlights equity gaps and helps tailor future pandemic responses
 
 # Source:
 Publisher: Centers for Disease Control and Prevention (CDC) 
+
 Maintainer: National Center for Health Statistics (NCHS)
+
 URL Access:  https://data.cdc.gov/NCHS/Provisional-COVID-19-Deaths-by-Sex-and-Age/9bhg-hcku
+
 Last Updated: September 27, 2023 (the dataset is now static)
 
 # Data:
