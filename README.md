@@ -8,7 +8,6 @@
 3) Mohammed Omar [@momo103103](https://github.com/momo103103)
 4) Evan Langley [@elangley424](https://github.com/elangley424)
 5) Soham Gupta [@GHSohamGupta](https://github.com/GHSohamGupta)
-6) Charlie Jones [@jonescharlie](https://github.com/jonescharlie)
 
 # Topic: 
 COVID-19 Mortality By Age and Sex
