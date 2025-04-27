@@ -281,6 +281,21 @@ Q1:
 Q2: 
 https://github.com/BrookeCredendino/Group-1-Project-2/blob/main/COVID-19GenderDisparity.twbx
 
+# Sources:
+
+NIH.gov - https://pmc.ncbi.nlm.nih.gov/articles/PMC9698608/
+
+CDC.gov - https://covid.cdc.gov/covid-data-tracker/#variant-proportions
+
+Census.gov - https://www.census.gov/data/tables/time-series/demo/popest/2020s-state-total.html
+
+Independent Living in California - https://conciergecareadvisors.com/independent-living-california/
+
+Nursing Home Outbreaks (2020) - https://www.pbs.org/newshour/health/nursing-home-outbreaks
+
+Dataset - https://data.cdc.gov/NCHS/Provisional-COVID-19-Deaths-by-Sex-and-Age/9bhg-hcku
+
+
 
 
 
